@@ -1,0 +1,22 @@
+// start fresh
+clear();
+
+
+// Amount of keys in localStorage
+window.localStorage.length;
+
+
+// key by index
+window.localStorage.key(0);
+
+
+// print all keys
+for (i = 0; i < window.localStorage.length; i++) { console.log(window.localStorage.key(i)); }
+
+
+// print all values
+for (i = 0; i < window.localStorage.length; i++) { console.log(window.localStorage.getItem(window.localStorage.key(i))); }
+
+
+// print index + value
+for (i = 0; i < window.localStorage.length; i++) { console.log( i.toString() + ": " + window.localStorage.getItem(window.localStorage.key(i) )); }
