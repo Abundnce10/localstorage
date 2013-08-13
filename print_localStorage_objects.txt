@@ -20,3 +20,7 @@ for (i = 0; i < window.localStorage.length; i++) { console.log(window.localStora
 
 // print index + value
 for (i = 0; i < window.localStorage.length; i++) { console.log( i.toString() + ": " + window.localStorage.getItem(window.localStorage.key(i) )); }
+
+
+// print index + key + value
+for (i = 0; i < window.localStorage.length; i++) { console.log( i.toString() + ": " + window.localStorage.key(i) + " - " + window.localStorage.getItem(window.localStorage.key(i))); }
